@@ -1,0 +1,288 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Section One and Header*/
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(45, 44, 50,0.9);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+} 
+header nav{
+    padding: 13px;
+}
+nav a{
+    padding: 5px;
+    text-decoration: none;
+    color: #ecf2e4;
+    font-weight: bold;    
+}
+nav a:hover {
+    border-radius: 3px;
+    background-color:  #72F62A;
+    color: #ecf2e4;
+}
+.bck{
+    background: #2d2c32;
+    color: #ecf2e4;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;   
+}
+#home .social a{
+    color: #ecf2e4;
+    font-size: 30px;
+    padding: 15px;
+}
+.pakman{
+    width: 12vw;
+    height: auto;
+    border-radius: 50%;
+    border: solid #ecf2e4 3px;
+    position: absolute;
+    left: 44vw;
+    top: 37vh;
+    box-shadow: 0px 1px 7px gray;
+}
+.firma{
+    position: absolute;
+    top: 17%;
+    left: 63%;
+    width: 17vw;
+    height: auto;
+    transform: rotate(-20deg);
+}
+
+.BsAs{
+    width: auto;
+    height: 50vh;    /* vh = view height, vw = view width*/
+    background: url("../Imagenes/BsAs2.jpg");
+    background-size: cover;
+    border-bottom: 3px solid #72F62A;
+}
+.second{
+    height: 380px;
+    position: relative;
+  
+}
+section .full{
+    font-size: 26px;
+}
+.text{
+    padding: 155px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    padding: 15px 0px 0px 0px;;
+}
+
+/* Section Dos */
+.form h2{
+    font-size: 2em;
+    text-align: center;
+    margin:0;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.form {
+    background: #ecf2e4;   
+}
+.sec{
+    background: #FDFEFE;
+    margin-top: 3%;
+    border-radius: 5px;
+    border: solid 1px #D7DBDD;
+    box-shadow: 0px 0px 4px black;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+.box i{
+   font-size: 35px;
+   margin-top: 6px;
+}
+.box div{
+    margin-left: 20px;
+}
+div.box h3{
+    margin: 0;
+}
+div.box p{
+    margin: 0;
+    margin-top: 8px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.len{
+    background-color: #FDFEFE;
+    height: 100%;
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding: 25px;
+    border: solid 1px #D7DBDD;
+    box-shadow: 0px 0px 4px #2d2c32;
+}
+.view{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background:#2d2c32;
+    margin-right: 10px;
+    box-shadow: 0px 1px 5px #2d2c32;
+}
+.view1{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background:#72F62A;
+    border:solid gray 1px;
+}
+.viwes{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Section tres */
+
+.proye{
+    background: #2d2c32;
+    color: #ecf2e4;
+    padding-bottom: 70px;
+}
+.proye h2 {
+    padding-top: 50px;
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+}
+.main{
+    display: flex;
+    flex-direction: columnrow;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.page{
+    background: black;
+    height: 300px;
+    height: 368px;
+    margin-top: -157px;
+    margin-left: 114px;
+    border-radius: 5px;
+}
+.page img{
+    
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+.page h3{
+    margin: 0;
+    margin-top: 17px;
+    margin-left: 14px;
+    font-size: 20px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    background: black;
+    width: 700px;
+    margin-top: 14px;
+    border-radius: 10px;
+    position: relative;
+}
+.box1 div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.5%;
+    margin-left: 2%;
+}
+.dec{
+    background:linear-gradient(to right, rgba(255,0,0,0), #ecf2e4);
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    top: -33px;
+    left: -14px;
+    border-radius: 10px 10px 0px 0px;
+}
+.box1 iframe{
+    width: 350px;
+    height: 250px;
+    padding: 8px;
+    margin-left: 1%;
+    margin-top: 11px;
+}
+.desig h3{
+    margin: 0;
+    font-size: 24px;
+}
+.desig p{
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    margin-top: 19px;
+}
+.desig div{
+    margin: 0;
+}
+/* Final Section */
+
+.contact{
+    text-align: center;
+    padding-bottom: 50px;
+    background-color:  #ecf2e4;
+}
+.contact h2{
+    margin: 0;
+    padding-top: 50px;
+}
+.contact form{
+    display: inline-block;
+    padding-top: 50px;
+}
+.contact input{
+    width: 400px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    padding: 20px;
+}
+.contact textarea{
+    width: 400px;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.contact button{
+    background: #2d2c32;
+    color: #ecf2e4;
+    padding: 16px 32px;
+    border-radius: 10px;
+    
+}
+footer{
+    background: #2d2c32;
+    text-align: center;
+    color: #ecf2e4;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
